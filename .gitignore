@@ -1,0 +1,18 @@
+node_modules
+.pnpm-store
+.turbo
+
+.next
+dist
+
+.env
+.env.local
+.env.*.local
+
+.DS_Store
+
+# Generated Turborepo task graph
+/task-graph.html
+
+# Test coverage
+coverage/

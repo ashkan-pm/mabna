@@ -1,0 +1,40 @@
+{
+  "name": "mabna",
+  "version": "1.0.0",
+  "description": "Practice project based on Mabna's code challenge",
+  "author": "Ashkan Pourghasem",
+  "type": "module",
+  "packageManager": "pnpm@11.13.1+sha512.b2fc7683b8a6525414e7d13e1ba28caaddde96bf66ec540bfaeb7e702b81f3e0be4d1f295edf7f9fe0396740a8dce4509c582ddf79891f4543fea32d37645f25",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "test": "turbo run test",
+    "test:coverage": "turbo run test:coverage",
+    "lint-staged": "lint-staged",
+    "prepare": "husky",
+    "graph": "turbo run build lint check-types --graph=task-graph.html"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,mjs,css,scss,json,md,yaml}": "prettier --write"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.0.0",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
+    "prettier": "^3.9.5",
+    "turbo": "^2.10.5"
+  }
+}
