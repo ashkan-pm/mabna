@@ -118,15 +118,15 @@ pnpm --filter @mabna/api dev
 
 ## Repository commands
 
-| Command | Purpose |
-| --- | --- |
-| `pnpm dev` | Run development tasks in watch mode |
-| `pnpm build` | Build workspace packages and applications |
-| `pnpm lint` | Run configured lint tasks |
-| `pnpm check-types` | Generate Next.js route types and run TypeScript checks |
-| `pnpm test` | Run workspace test tasks once they are introduced |
-| `pnpm format` | Format the repository with Prettier |
-| `pnpm format:check` | Check formatting without changing files |
+| Command             | Purpose                                                |
+| ------------------- | ------------------------------------------------------ |
+| `pnpm dev`          | Run development tasks in watch mode                    |
+| `pnpm build`        | Build workspace packages and applications              |
+| `pnpm lint`         | Run configured lint tasks                              |
+| `pnpm check-types`  | Generate Next.js route types and run TypeScript checks |
+| `pnpm test`         | Run workspace test tasks once they are introduced      |
+| `pnpm format`       | Format the repository with Prettier                    |
+| `pnpm format:check` | Check formatting without changing files                |
 
 Turborepo runs only tasks that exist in each workspace and uses the dependency
 graph to order dependent work. Development tasks are persistent and deliberately
@@ -137,14 +137,14 @@ results.
 
 The current API reads the challenge's local JSON fixtures and exposes:
 
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| `GET` | `/assets` | Return all assets |
-| `GET` | `/assets/:id` | Return the asset matching an ID |
-| `GET` | `/trades` | Return all trades |
-| `GET` | `/trades?asset_id=:id` | Return trades for one asset |
-| `GET` | `/bidasks` | Return all bid/ask entries |
-| `GET` | `/bidasks?asset_id=:id` | Return bid/ask entries for one asset |
+| Method | Endpoint                | Description                          |
+| ------ | ----------------------- | ------------------------------------ |
+| `GET`  | `/assets`               | Return all assets                    |
+| `GET`  | `/assets/:id`           | Return the asset matching an ID      |
+| `GET`  | `/trades`               | Return all trades                    |
+| `GET`  | `/trades?asset_id=:id`  | Return trades for one asset          |
+| `GET`  | `/bidasks`              | Return all bid/ask entries           |
+| `GET`  | `/bidasks?asset_id=:id` | Return bid/ask entries for one asset |
 
 ## Architectural principles
 
