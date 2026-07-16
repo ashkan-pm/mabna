@@ -11,3 +11,6 @@ coverage
 .env.*.local
 
 .DS_Store
+
+# Generated Turborepo task graph
+/task-graph.html

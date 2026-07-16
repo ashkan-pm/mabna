@@ -14,7 +14,8 @@
     "check-types": "turbo run check-types",
     "test": "turbo run test",
     "lint-staged": "lint-staged",
-    "prepare": "husky"
+    "prepare": "husky",
+    "graph": "turbo run build lint check-types --graph=task-graph.html"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,mjs,css,scss,json,md}": "prettier --write"
