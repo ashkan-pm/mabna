@@ -18,7 +18,7 @@
     "graph": "turbo run build lint check-types --graph=task-graph.html"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,mjs,css,scss,json,md}": "prettier --write"
+    "**/*.{js,jsx,ts,tsx,mjs,css,scss,json,md,yaml}": "prettier --write"
   },
   "engines": {
     "node": ">=24 <25"

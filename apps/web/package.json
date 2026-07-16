@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs}": "pnpm --filter @mabna/web exec eslint --fix --max-warnings=0",
-    "*.{css,scss,json,md}": "prettier --write"
+    "*.{css,scss,json,md,yaml}": "prettier --write"
   },
   "dependencies": {
     "next": "16.2.10",
