@@ -9,7 +9,8 @@
     "lint": "eslint",
     "check-types": "next typegen && tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs}": "pnpm --filter @mabna/web exec eslint --fix --max-warnings=0",
@@ -28,6 +29,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.0.3",
+    "@vitest/coverage-v8": "^4.1.10",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
     "eslint-plugin-prettier": "^5.5.6",

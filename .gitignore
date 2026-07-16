@@ -14,3 +14,6 @@ coverage
 
 # Generated Turborepo task graph
 /task-graph.html
+
+# Test coverage
+coverage/
