@@ -11,7 +11,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write",
-      "eslint --fix --max-warnings=0"
+      "pnpm --filter @mabna/api-types exec eslint --fix --max-warnings=0"
     ],
     "*.{json,md,yaml,mjs}": "prettier --write"
   },
