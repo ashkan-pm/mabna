@@ -2,6 +2,7 @@
   "name": "@mabna/web",
   "description": "Main frontend application",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,6 +23,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@mabna/api-types": "workspace:*",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",

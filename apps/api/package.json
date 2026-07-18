@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Main HTTP API application",
   "main": "server.js",
+  "private": true,
   "scripts": {
     "dev": "node --watch server.js",
     "start": "node server.js"
