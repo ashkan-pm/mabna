@@ -11,8 +11,7 @@
     },
     "lint": {},
     "check-types": {
-      "dependsOn": ["^check-types"],
-      "outputs": [".next/types/**", "next-env.d.ts"]
+      "dependsOn": ["^check-types"]
     },
     "test": {
       "dependsOn": ["^test"]
