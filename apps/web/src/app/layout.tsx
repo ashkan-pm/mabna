@@ -1,4 +1,5 @@
 import localFont from 'next/font/local'
+import { Providers } from '@/app/providers'
 import type { Metadata } from 'next'
 import './globals.scss'
 
@@ -18,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" className={iranianSans.className}>
-      <body>{children}</body>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
