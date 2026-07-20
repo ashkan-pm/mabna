@@ -1,14 +1,14 @@
 import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
-import Home from '@/app/page'
+import AssetsList from '@/app/page'
 
 describe('Home', () => {
-  it('renders the starter heading', () => {
-    render(<Home />)
+  it('renders the test heading', () => {
+    render(<AssetsList />)
 
     expect(
       screen.getByRole('heading', {
-        name: /to get started/i
+        name: /تست/i
       })
     ).toBeInTheDocument()
   })
