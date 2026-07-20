@@ -16,9 +16,18 @@ importers:
       node:
         specifier: runtime:^24.0.0
         version: runtime:24.18.0
+      postcss-scss:
+        specifier: ^4.0.9
+        version: 4.0.9(postcss@8.5.19)
       prettier:
         specifier: ^3.9.5
         version: 3.9.5
+      stylelint:
+        specifier: ^17.14.0
+        version: 17.14.0(typescript@5.9.3)
+      stylelint-config-standard-scss:
+        specifier: ^17.0.0
+        version: 17.0.0(postcss@8.5.19)(stylelint@17.14.0(typescript@5.9.3))
       turbo:
         specifier: ^2.10.5
         version: 2.10.5
@@ -92,18 +101,9 @@ importers:
       jsdom:
         specifier: ^29.1.1
         version: 29.1.1
-      postcss-scss:
-        specifier: ^4.0.9
-        version: 4.0.9(postcss@8.5.19)
       sass:
         specifier: ^1.101.0
         version: 1.101.0
-      stylelint:
-        specifier: ^17.14.0
-        version: 17.14.0(typescript@5.9.3)
-      stylelint-config-standard-scss:
-        specifier: ^17.0.0
-        version: 17.0.0(postcss@8.5.19)(stylelint@17.14.0(typescript@5.9.3))
       typescript:
         specifier: ^5
         version: 5.9.3

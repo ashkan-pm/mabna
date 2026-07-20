@@ -1,7 +1,5 @@
+import styles from './assets-list.module.scss'
+
 export default function AssetsList() {
-  return (
-    <div>
-      <h1>تست</h1>
-    </div>
-  )
+  return <h1 className={styles.test}>تست</h1>
 }

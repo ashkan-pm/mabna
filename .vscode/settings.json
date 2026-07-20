@@ -10,5 +10,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "stylelint.validate": ["css", "postcss", "scss"]
 }
