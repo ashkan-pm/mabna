@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="fa" className={iranianSans.className}>
       <body>
+        <h1>تست</h1>
         <Providers>{children}</Providers>
       </body>
     </html>

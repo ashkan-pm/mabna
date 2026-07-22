@@ -1,7 +1,10 @@
 {
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always"
+    "source.fixAll.eslint": "always",
+    "source.fixAll.stylelint": "always",
+    "source.fixAll.prettier": "always",
+    "source.fixAll.ts": "always"
   },
   "eslint.useFlatConfig": true,
   "eslint.validate": [
