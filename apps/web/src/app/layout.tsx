@@ -1,5 +1,6 @@
 import localFont from 'next/font/local'
 import { Providers } from '@/app/providers'
+import styles from './layout.module.scss'
 import type { Metadata } from 'next'
 import './globals.scss'
 
@@ -20,8 +21,12 @@ export default function RootLayout({
   return (
     <html lang="fa" className={iranianSans.className}>
       <body>
-        <h1>تست</h1>
-        <Providers>{children}</Providers>
+        <div className={styles.wrapper}>
+          <h1>تست</h1>
+          <div className={styles.page}>
+            <Providers>{children}</Providers>
+          </div>
+        </div>
       </body>
     </html>
   )
